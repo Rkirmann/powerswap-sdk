@@ -2073,18 +2073,6 @@
   resolved "https://registry.yarnpkg.com/@ledgerhq/logs/-/logs-5.50.0.tgz#29c6419e8379d496ab6d0426eadf3c4d100cd186"
   integrity sha512-swKHYCOZUGyVt4ge0u8a7AwNcA//h4nx5wIi0sruGye1IJ5Cva0GyK9L2/WdX+kWVTKp92ZiEo1df31lrWGPgA==
 
-"@powerswap/core@^1.0.5":
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/@powerswap/core/-/core-1.0.5.tgz#2697e451b08456d2b0ca526214430987103a6b6d"
-  integrity sha512-sbqUELefLihhJUu4a7tcLw6xAdB95RhBJmjx9HYRsJxU98ogaxMhIVVCIqsvtlLE9O086BkUXP1CWXD+2qmNZQ==
-  dependencies:
-    "@harmony-js/core" "^0.1.57"
-    "@harmony-js/utils" "^0.1.56"
-    truffle "^5.1.41"
-    truffle-flattener "^1.4.4"
-    truffle-hdwallet-provider "^1.0.17"
-    tslib "^2.2.0"
-
 "@microsoft/fetch-event-source@2.0.1":
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/@microsoft/fetch-event-source/-/fetch-event-source-2.0.1.tgz#9ceecc94b49fbaa15666e38ae8587f64acce007d"
@@ -2125,6 +2113,18 @@
   dependencies:
     "@nodelib/fs.scandir" "2.1.4"
     fastq "^1.6.0"
+
+"@powerswap/core@^2.0.1":
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/@powerswap/core/-/core-2.0.1.tgz#db210c3f184e5e234c8af3415d089046bba1e6e4"
+  integrity sha512-+MxDzUvdj/ZrR6R9ydNa+EJkfYbwxNi//uZXKarXJlDbDiEpmwbomBMI348WJUExYGsstf1oK4jwzt2OF69CpA==
+  dependencies:
+    "@harmony-js/core" "^0.1.57"
+    "@harmony-js/utils" "^0.1.56"
+    truffle "^5.1.41"
+    truffle-flattener "^1.4.4"
+    truffle-hdwallet-provider "^1.0.17"
+    tslib "^2.2.0"
 
 "@protobufjs/aspromise@^1.1.1", "@protobufjs/aspromise@^1.1.2":
   version "1.1.2"
